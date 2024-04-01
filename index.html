@@ -207,7 +207,7 @@
           <img src="./static/images/isobench-results.png" alt="isobench results" width="device-width">
 
           <p>
-          SOMETHING SOMOETHING
+            Within each subject, the best scores in processing image representations are highlighted in <span style="color: rgb(66, 133, 244);"><b>blue</b></span>, and the best in text representations are in <span style="color: rgb(219, 68, 55);"><b>red</b></span>. Overall, GPT-4 Turbo is the best for images and Claude-3 Opus is the best for text. Across four subjects within IsoBench, multimodal foundation models have a strong preference for text modalities. The gap in accuracy between the best text representation and its isomorphic image representation can be as large as <b>28.7%</b>.
           </p>
 
 
@@ -229,9 +229,13 @@
         <img src="./static/images/iso-cb-sp.png" alt="isoCB and isoSP" width="device-width">
 
         <p>
-        SOMETHING SOMOETHING
+        Illustration of <i>IsoCombination</i> (IsoCB) and <i>IsoScratchPad</i> (IsoSP). IsoCB combines all representations provided by a user and constructs one unified prompt for a foundation model. IsoSP is a two-step prompting method, where a foundation model first describes an image and then uses the textual description as the sole representation for a given task.
         </p>
 
+        <img src="./static/images/iso-cb-sp-results.png" alt="isoCB and isoSP Results" width="device-width">
+        <p>
+          Best prompting methods are highlighted in <span style="color:rgb(219, 68, 55);"><b>red</b></span> and improvements over image-only prompts are in <span style="color:rgb(15, 157, 88);">(green)</span>. Both methods improve performance in comparison with image representations, and for certain domains, IsoCombination additionally improves performance relative to text representations.
+        </p>
 
       </div>
     </div>
